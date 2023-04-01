@@ -1,4 +1,6 @@
 import win32com.client
+import os
+import webbrowser
 
 # Create an instance of the Outlook application
 outlook = win32com.client.Dispatch("Outlook.Application").GetNamespace("MAPI")
@@ -27,3 +29,8 @@ for email in unread_emails:
 
     # Exit the loop after processing the oldest email
     break
+
+# Open Google Chrome and navigate to the specified website
+chrome_path = 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s'
+url = 'https://chat.openai.com/chat'
+webbrowser.get(chrome_path).open(url)
