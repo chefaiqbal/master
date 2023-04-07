@@ -7,7 +7,7 @@ _________ .__            _____       .__       ___.          .__
         \/     \/     \/           \/       |__|    \/     \/      
 
 #Email AutoDraft  
-#Import the necessary packages for interacting with Outlook and Chrome.  
+#Import the necessary packages for interacting with Outlook and Chrome. -- In Preogress 
 #Set up the connection to Outlook and retrieve the unread folder.  
 #Sort the emails in the folder by oldest to newest.  
 #Open the oldest email using the Outlook API.  
